@@ -1,7 +1,231 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<div class="container">
+		<div class="row">
+			<div class="col-12 principal-content">
+                <div class="row" >
+                    <div class="col-12 text-center">
+                        <h5> <i class="bi bi-check2-square"></i> Tablero de actividades por realizar </h5>
+                    </div>
+                </div>
+                <div class="row tasklist justify-content-between">
+                    <div class="col-3 taskcolumn">
+                        <div class="row g-0">
+                            <div class="col text-center tasktittle">
+                                <mark class="pending-mark">Tareas pendientes </mark> 
+                            </div>
+                        </div>
+                        <div class="row g-0 taskitem  rounded-3">
+                            <div class="col">
+                                <div class="row g-0">
+                                    <div class="col text-center fw-bold">
+                                        <p>Planear pipelines en bitworks</p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="text-center text-muted">
+                                            Debemos planear una serie de pipelines
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="due-date-expired text-center">September 30, 2021 12:00 AM <i class="bi bi-alarm"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row g-0 justify-content-start">
+                                    <div class="col text-end">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Hecho
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 taskitem">
+                            <div class="col">
+                                <div class="row g-0">
+                                    <div class="col text-center fw-bold">
+                                        <p>Planear pipelines en bitworks</p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="text-center text-muted">
+                                            Debemos planear una serie de pipelines
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="due-date-expired text-center">September 30, 2021 12:00 AM <i class="bi bi-alarm"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row g-0 justify-content-start">
+                                    <div class="col text-end">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Hecho
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 taskitem">
+                            <div class="col">
+                                <div class="row g-0">
+                                    <div class="col text-center fw-bold">
+                                        <p>Planear pipelines en bitworks</p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="text-center text-muted">
+                                            Debemos planear una serie de pipelines
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="due-date-expired text-center">September 30, 2021 12:00 AM <i class="bi bi-alarm"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row g-0 justify-content-start">
+                                    <div class="col text-end">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Hecho
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 taskitem">
+                            <div class="col">
+                                <div class="row g-0">
+                                    <div class="col text-center fw-bold">
+                                        <p>Planear pipelines en bitworks</p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="text-center text-muted">
+                                            Debemos planear una serie de pipelines
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="due-date-expired text-center">September 30, 2021 12:00 AM <i class="bi bi-alarm"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row g-0 justify-content-start">
+                                    <div class="col text-end">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Hecho
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col">
+                                <a href="#" class="text-muted new-task">
+                                    <i class="bi bi-plus-square"></i> Nuevo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 taskcolumn">
+                        <div class="row g-0">
+                            <div class="col text-center tasktittle">
+                                <mark class="in-progress-mark">Tareas en progreso</mark>
+                            </div>
+                        </div>
+                        <div class="row g-0 taskitem">
+                            <div class="col">
+                                <div class="row g-0">
+                                    <div class="col text-center fw-bold">
+                                        <p>Planear pipelines en bitworks</p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="text-center text-muted">
+                                            Debemos planear una serie de pipelines
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="due-date-expired text-center">September 30, 2021 12:00 AM <i class="bi bi-alarm"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row g-0 justify-content-start">
+                                    <div class="col text-end">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Hecho
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col">
+                                <a href="#" class="text-muted">
+                                    <i class="bi bi-plus-square"></i> Nuevo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 taskcolumn">
+                        <div class="row g-0">
+                            <div class="col text-center tasktittle">
+                                <mark class="completed-mark">Tareas completadas</mark>
+                            </div>
+                        </div>
+                        <div class="row g-0 taskitem">
+                            <div class="col">
+                                <div class="row g-0">
+                                    <div class="col text-center fw-bold">
+                                        <p>Planear pipelines en bitworks</p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="text-center text-muted">
+                                            Debemos planear una serie de pipelines
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <p class="due-date-expired text-center">September 30, 2021 12:00 AM <i class="bi bi-alarm"></i></p>
+                                    </div>
+                                </div>
+                                <div class="row g-0 justify-content-start">
+                                    <div class="col text-end">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Hecho
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col">
+                                <a href="#" class="text-muted">
+                                    <i class="bi bi-plus-square"></i> Nuevo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
