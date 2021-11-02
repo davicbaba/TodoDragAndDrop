@@ -1,0 +1,67 @@
+﻿.principal-content{
+    background-color: #373c3f;
+    border-radius: 10px ;
+}
+
+body {
+    background-color: #2f3437;
+}
+
+.tasklist {
+    margin-top: 50px;
+}
+
+.taskitem {
+    padding: 4px;
+    margin-bottom: 5px;
+    color:#abc5cf;
+    background-color: #2f3437;
+}
+.taskitem:hover{
+    background-color:#3b5865;
+    cursor: pointer;
+}
+
+.tasktittle {
+    padding: 7px;
+    color:#abc5cf;
+}
+
+p{
+    color:#abc5cf;
+}
+
+h5{
+    color:#abc5cf;
+}
+.new-task{
+    color:#abc5cf;
+}
+
+.pending-mark {
+    background-color:#7a363b;
+    color:#d1b9ba;
+}
+
+.in-progress-mark {
+    background-color:#92763f;
+    color:#e7e1d6;
+}
+
+.completed-mark {
+    background-color:#325241;
+    color:#bdc7c2;
+}
+
+.due-date-expired {
+    color:#c25253;
+}
+
+a{
+    text-decoration: none
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
